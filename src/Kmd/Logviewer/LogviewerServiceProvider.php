@@ -38,7 +38,7 @@ class LogviewerServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['logviewer'] = $this->app->share(function ($app) {
-            return new Logviewer;
+            return new Logviewer($app, php_sapi_name(), date('Y-m-d'));
         });
     }
 
