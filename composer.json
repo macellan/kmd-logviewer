@@ -1,5 +1,5 @@
 {
-    "name": "kmd/logviewer",
+    "name": "macellan/kmd-logviewer",
     "description": "Laravel 4 log file viewer.",
     "keywords": [
         "laravel",
@@ -11,6 +11,10 @@
         {
             "name": "Micheal Mand - KMDWebDesigns",
             "email": "micheal@kmdwebdesigns.com"
+        },
+        {
+            "name": "Macellan",
+            "email": "info@macellan.net"
         }
     ],
     "license": [
